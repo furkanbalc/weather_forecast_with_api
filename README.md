@@ -8,6 +8,8 @@ This project was developed with flutter.
 - **State Management:** Vanilla state management was used at the basic level, and the provider
 - **API:** https://openweathermap.org/api
 - Visuals were supported with the help of an animated landing screen and lotties
+- By obtaining location permission from the user, the user's instant location data was accessed with the geolocator.
+    
 
 ## About The Project
 
