@@ -10,7 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  http: ^1.1.0
   geolocator: ^10.1.0
   parallax_rain: ^1.1.0
   provider: ^6.1.1

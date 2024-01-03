@@ -16,6 +16,34 @@ class BoxDecorations {
     ),
   );
 
+  static BoxDecoration weatherDetailDecoration = BoxDecoration(
+    borderRadius: BorderRadius.circular(25),
+    gradient: LinearGradient(
+      colors: [
+        AppColors.moonShadow.withOpacity(0.9),
+        AppColors.blueGem.withOpacity(0.9),
+        AppColors.fiantingLight.withOpacity(0.9),
+      ],
+      begin: Alignment.centerLeft,
+      end: Alignment.centerRight,
+      stops: const [0.0, 0.5, 1.0],
+      tileMode: TileMode.clamp,
+    ),
+  );
+  static BoxDecoration weatherTopDetailDecoration = BoxDecoration(
+    borderRadius: BorderRadius.circular(25),
+    gradient: LinearGradient(
+      colors: [
+        AppColors.fiantingLight.withOpacity(0.7),
+        AppColors.blueGem.withOpacity(0.7),
+        AppColors.moonShadow.withOpacity(0.7),
+      ],
+      begin: Alignment.centerLeft,
+      end: Alignment.centerRight,
+      stops: const [0.0, 0.5, 1.0],
+      tileMode: TileMode.clamp,
+    ),
+  );
   static BoxDecoration dailyContainerDecoration = backgroundDecoration.copyWith(
     boxShadow: [
       BoxShadow(

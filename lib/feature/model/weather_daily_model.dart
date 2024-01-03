@@ -21,7 +21,7 @@ class WeatherDailyModel {
     String? icon,
   }) {
     return WeatherDailyModel(
-      temperature: temperature,
+      temperature: temperature ?? this.temperature,
       wind: wind ?? this.wind,
       description: description ?? this.description,
       date: date ?? this.date,

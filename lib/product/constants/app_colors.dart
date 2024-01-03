@@ -8,4 +8,5 @@ class AppColors {
   static const Color blueGem = Color(0xFF453B91);
   static const Color moonShadow = Color(0xFF9142A8);
   static const Color goldenSamowar = Color(0xFFDDB130);
+  static const Color whiteColor = Colors.white;
 }

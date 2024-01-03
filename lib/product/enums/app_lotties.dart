@@ -1,5 +1,8 @@
 enum AppLotties {
   windy('windy'),
+  humidity('humidity'),
+  pressure('pressure'),
+  temp('temp'),
   ;
 
   final String value;

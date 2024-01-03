@@ -10,12 +10,10 @@ class SearchTextField extends StatelessWidget {
       onChanged: onChanged,
       style: Theme.of(context).textTheme.titleMedium?.copyWith(color: Colors.white, fontWeight: FontWeight.w500),
       decoration: InputDecoration(
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(25)),
         hintText: 'Ara...',
         hintStyle: Theme.of(context).textTheme.titleMedium?.copyWith(color: Colors.white54),
         suffixIcon: IconButton(
           onPressed: searched,
-          //() async => await read.getCityData(city: controller.text),
           icon: const Icon(Icons.search, color: Colors.white),
         ),
       ),

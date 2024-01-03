@@ -3,8 +3,9 @@ import 'package:weather_app/product/constants/app_colors.dart';
 import 'package:weather_app/product/utility/box_decoration.dart';
 
 class BaseScaffold extends StatefulWidget {
-  const BaseScaffold({super.key, this.child, this.resizeToAvoidBottomInset, this.fabButton});
+  const BaseScaffold({super.key, this.child, this.resizeToAvoidBottomInset, this.fabButton, this.appBarTitle});
   final Widget? child;
+  final Widget? appBarTitle;
   final Widget? fabButton;
   final bool? resizeToAvoidBottomInset;
 
@@ -17,9 +18,11 @@ class _BaseScaffoldState extends State<BaseScaffold> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: widget.resizeToAvoidBottomInset,
-      appBar: AppBar(backgroundColor: AppColors.fiantingLight),
+      appBar: AppBar(
+        backgroundColor: AppColors.fiantingLight,
+        title: widget.appBarTitle,
+      ),
       body: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
         width: MediaQuery.sizeOf(context).width,
         height: MediaQuery.sizeOf(context).height,
         decoration: BoxDecorations.backgroundDecoration,
