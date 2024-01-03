@@ -24,7 +24,7 @@ class MainDatas extends StatelessWidget {
           style: Theme.of(context).textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.w500, color: Colors.white),
         ),
         Text(
-          '${model?.temprature?.toInt()}°',
+          '${model?.temp?.toInt()}°',
           style: Theme.of(context).textTheme.displayMedium?.copyWith(fontWeight: FontWeight.bold, color: Colors.white),
         ),
         Text(
