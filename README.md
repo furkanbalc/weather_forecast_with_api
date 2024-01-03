@@ -10,17 +10,13 @@ This project was developed with flutter.
 - Visuals were supported with the help of an animated landing screen and lotties
 - By obtaining location permission from the user, the user's instant location data was accessed with the geolocator.
 
+<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/f90b45b5-0b2f-4545-b987-84db14962c2a" width="15%"></img> 
+<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/c6d7a1b1-bb39-458d-a67a-a9468859620a" width="15%"></img> 
+<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/2329c7f1-2717-49b4-9ec1-1ae8b3be3196" width="15%"></img> 
+<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/b4d05340-0643-4a19-8a63-96f218be36bf" width="15%"></img> 
+<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/2d70492b-961f-4fc7-a913-3835ac050a46" width="15%"></img> 
+<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/b57405da-1a47-43b1-ba7a-515f1fe4f47e" width="15%"></img> 
 
-<p>Splash Screen</p>  
-<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/4c9ff8d5-c408-41f9-badd-c1ee930bc0c5" width="18%"></img> 
-<p>Welcome Screen</p>  
-<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/39e845b7-9540-4031-a928-05eeabfe1efe" width="18%"></img> 
-<p>Permission Dialog</p>  
-<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/ec4a5840-f685-4966-84af-a64bcad6aa81" width="18%"></img> 
-<p>Home Screen - My Location</p>  
-<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/95d03475-1b2c-4c5c-ac97-355d694ca9f2" width="18%"></img> 
-<p>Home Screen - Search London</p>  
-<img src="https://github.com/furkanbalc/weather_forecast_with_api/assets/105873821/f08fb6ff-d3b9-44b6-a092-a684ff24ee1f" width="18%"></img> 
 
 ## About The Project
 
