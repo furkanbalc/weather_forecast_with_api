@@ -1,7 +1,7 @@
 # Flutter weather forecast app
 
 This project was developed with flutter.
-
+Project video: https://youtu.be/SkRl8TZ8zqI?si=q0MO3tVWBYNaTSPr
 ## Materials
 
 - **Flutter MVVM Architecture:** The project tried to comply with the MVVM (Model-View-ViewModel) architecture at a simple level, which ensures that the code is organized and manageable.
